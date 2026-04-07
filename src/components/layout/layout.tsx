@@ -13,7 +13,7 @@ export default function Layout() {
   const headerPosition = (current.handle as any)?.headerPosition;
 
   return (
-    <div className={cn("relative flex h-screen w-screen flex-col bg-gray-100")}>
+    <div className={cn("relative flex h-screen w-screen flex-col bg-white")}>
       {/* {!(current.handle as any)?.whiteBackground && (
         <div className="h-66 bg-peach-fade absolute left-0 top-0 w-full"></div>
       )} */}

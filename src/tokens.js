@@ -247,7 +247,7 @@ const semantic = {
       notAvailable: "Không khả dụng",
     },
     brand: {
-      name: "La Viet Cafe & Dining",
+      name: "Ndatrace",
     },
     nav: {
       home: "Trang chủ",

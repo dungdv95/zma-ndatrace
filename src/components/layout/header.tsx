@@ -39,7 +39,7 @@ export default function Header({ title, back, position }: HeaderProps) {
 
   return (
     <div
-      className={`${positionClass} header-margin left-0 top-0 flex h-12 w-full items-center gap-1.5 px-4 py-2`}
+      className={`${positionClass} header-margin left-0 top-0 flex h-14 w-full items-center gap-1.5 border-b border-gray-100 px-4 py-2.5`}
     >
       <Logo />
       {/* <div className="text-header_title text-primary">{copy.brand.name}</div> */}

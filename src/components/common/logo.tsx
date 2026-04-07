@@ -1,4 +1,4 @@
-import logo from "@/static/logo.png";
+import logo from "@/static/logo.svg";
 import { copy } from "@/constants/copy";
 
 export default function Logo() {
@@ -7,7 +7,7 @@ export default function Logo() {
       src={logo}
       alt={copy.brand.name}
       draggable={false}
-      className="size-[22px] rounded-full"
+      className="h-7 w-auto max-w-[140px]"
     />
   );
 }
