@@ -1,14 +1,15 @@
+import tokens from "./src/tokens";
+
 module.exports = {
   darkMode: ["selector", '[zaui-theme="dark"]'],
-  purge: {
-    enabled: true,
-    content: ["./src/**/*.{js,jsx,ts,tsx,vue}"],
-  },
+  content: [
+    "./src/**/*.{js,jsx,ts,tsx}",
+    "./public/index.html",
+    "./index.html",
+  ],
   theme: {
     extend: {
-      fontFamily: {
-        mono: ["Roboto Mono", "monospace"],
-      },
+      ...tokens,
     },
   },
 };
